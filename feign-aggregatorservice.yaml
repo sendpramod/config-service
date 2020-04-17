@@ -1,0 +1,16 @@
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 3000
+        readTimeout: 3000
+        loggerLevel: full
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: hystrix.stream, health, info, metrics
+user:
+  service:
+    uri: http://localhost:8282/users
