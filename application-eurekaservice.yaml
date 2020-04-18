@@ -1,4 +1,4 @@
-EUREKA_URI: http://127.0.0.1:8696/eurekaservice/eureka
+EUREKA_URI: http://127.0.0.1:7676/eureka
 eureka:
   client:
     registerWithEureka: false
