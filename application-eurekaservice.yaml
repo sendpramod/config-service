@@ -1,4 +1,6 @@
 EUREKA_URI: http://127.0.0.1:7676/eureka
+server:
+  port: 7676
 eureka:
   client:
     registerWithEureka: false
