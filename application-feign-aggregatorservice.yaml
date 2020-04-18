@@ -11,6 +11,3 @@ management:
       base-path: /
       exposure:
         include: hystrix.stream, health, info, metrics
-user:
-  service:
-    uri: http://localhost:8282/users
